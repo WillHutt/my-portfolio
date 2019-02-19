@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>William Hutt</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <div class="pos-f-t">
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <a href="#about"><h4 class="text-white">About</h4></a>
+                    <a href="#portfolio"><h4 class="text-white">Portfolio</h4></a>
+                    <a href="#contact"><h4 class="text-white">Contact</h4></a>
+                </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="top">
+        <div class="container">
+            <div class="row" id="header">
+                <div class="col-sm-6 offset-sm-3">
+                    <img id="profile-pic"src="image/profile-photo.png" width="250">
+                    <h1 class="text-uppercase mb-0" id="name">William Hutt</h1>
+                    <i class="fab fa-wolf-pack-battalion"></i>
+                    <h2 class="font-weight-light mb-0" id="job">Software Engineer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Portfolio-->
+    <section class="portfolio" id="portfolio">
+        <h2 id="portfolio-header">Portfolio</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="#portfolio-modal-1" data-toggle="modal" data-target="#modal-1"><img class="img-fluid" src="image/oi-beacon.png"></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="#portfolio-modal-2" data-toggle="modal" data-target="#modal-2"><img class="img-fluid" src="image/dnd-gacha.png"></a>    
+            </div>
+            <div class="col-sm-4">
+                <a href="#portfolio-modal-3" data-toggle="modal" data-target="#modal-3"><img class="img-fluid" src="image/wow-guide.png"></a>   
+            </div>
+        </div>
+    </section>
+    
+    <!--About-->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <p>I'm from Oakdale California. I'll be graduating from California State University Monterey Bay with a bachelors degree in computer science, in Spring 2019.</p>
+                <!--<p></p>-->
+            </div>
+        </div>
+    </section>
+    
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <h2>Contact</h2>
+                <a href="https://github.com/WillHutt"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/william-hutt-213803125/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <footer>
+      <div class="copyright">
+        <div class="container">
+            <small>Copyright &copy; William Hutt 2019</small>
+        </div>
+      </div>
+    </footer>
+    
+  <!--Portfolio Modals -->
+    <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle">Oakdale Innovation Beacon Request</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <img class="img-fluid mb-5" src="image/oi-beacon.png" alt="">
+                    <p class="mb-5">Info here</p>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle2">Dungeons and Dragons Gacha</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <img class="img-fluid mb-5" src="image/dnd-gacha.png" alt="">
+                    <p class="mb-5">Info here</p>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle3">World of Worcraft Guide</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <img class="img-fluid mb-5" src="image/wow-guide.png" alt="">
+                    <p class="mb-5">Info here</p>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
