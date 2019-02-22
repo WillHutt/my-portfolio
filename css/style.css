@@ -1,15 +1,26 @@
 #top {
     text-align: center;
-    background-color: #18bc9c!important;
+    /*background-color: #18bc9c!important;*/
+    background-image: url("../image/header-theme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 10%;
     padding-bottom: 10%;
     color: white;
 }
 .about {
     text-align: center;
-    padding-top: 10%;
+    color:white;
+    padding-top: 5%;
     padding-bottom: 10%;
-    background-color: #18bc9c!important;
+    /*background-color: #18bc9c!important;*/
+    background-image: url("../image/about-theme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about-me-text
+{
+    padding-top:3% !important;
 }
 .contact {
     text-align: center;
@@ -55,4 +66,16 @@
 
 #portfolio {
     padding-bottom: 5%;
+}
+
+#contact-title {
+    padding-bottom: 5%;
+}
+
+#git {
+    padding-right: 2%;
+}
+
+#linked {
+    padding-left: 2%;
 }
